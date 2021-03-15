@@ -39,7 +39,7 @@ app.post('/register', (req , res) => { register.registerHandler(req , res , db ,
 
 app.listen(process.env.PORT || 3000 ,()=>{
 
-	console.log(`app running on port 3001 ${process.env.PORT}`);
+	console.log(`app running on port ${process.env.PORT}`);
 })
 
 
