@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/',(req , res)=>{
-	res.send(database.users)
+	res.send("its working")
 })
 
 // app.get('/profile/:id' , (req , res) => { profile.profileHandler(req , res , db) } )
